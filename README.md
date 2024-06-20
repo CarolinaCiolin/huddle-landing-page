@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://carolinaciolin.github.io/dev-quest/huddle-landing-page/index.html)
+- [Live Site URL](https://carolinaciolin.github.io/huddle-landing-page/)
 
 ## My Process
 
