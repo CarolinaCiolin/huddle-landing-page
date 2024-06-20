@@ -1,0 +1,115 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--violet);
+} 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 90vw;
+}
+
+main{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.mockups{
+    height: auto;
+}
+
+.info{
+    padding: 50px 0 0 0;
+    max-width: 510px;
+}
+
+.info > h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.info > p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 12px 50px;
+    color: var(--violet);
+    box-shadow: 0 0 8px #282828;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--magenta);
+    color: #fff;
+}
+
+footer{
+    width: 90vw;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+footer > address{
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+}
+
+footer > address > a{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+footer > address > a:hover{
+    border-color: var(--magenta);
+}
+
+footer > address > a:hover > i{
+    color: var(--magenta);
+}
+
+footer > address > a > i{
+    font-size: 18px;
+}
+
+footer > .credits{
+    align-content: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer > .credits > a:hover{
+    color: var(--magenta);
+}
